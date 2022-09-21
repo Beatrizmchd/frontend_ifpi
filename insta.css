@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img.perfil {
+    border-radius: 50%;
+    height: 45px;
+    width: 3%;
+    display: inline-flex;
+    
+}
+
+img.post {
+    height: 250px;
+    width: 35%;
+    display: flexbox;
+}
+
+div {
+    display: inline;
+    vertical-align: middle;
+    font-weight: bolder;
+    
+}
+
+.flex-conteiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 24px;
+    height: 20px;
+    width: 5%;
+    padding: 8px 16px 8px 0;
+    
+}
+
+.likes, .legenda, .coments {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ver_coments {
+    color: gray;
+}
+
+.date {
+    font-weight: 100;
+    font-size: x-small;
+    color: gray;
+}
+
+.traducao {
+    font-weight: 525;
+    font-size: small;
+    vertical-align: baseline;
+    margin: 5px;
+    display: inline;
+}
+
+hr {
+    width: 35%;
+    float: left;
+    
+}
+
+textarea {
+    margin: 15px 0;
+    width: 300px;
+    height: 15px;
+    vertical-align: middle;
+    border: 0;
+    padding: 5px;
+    
+}
+
+.icon_coment {
+    
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: -475px;
+}
+
+button {
+    color: darkcyan;
+    border: 0;
+    margin-left: -70px;
+}
+
+
+
+
